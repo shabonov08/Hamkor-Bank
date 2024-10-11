@@ -1,0 +1,5 @@
+import CookieConsent from '/assets/components/hamkorbank/js/modules/CookieConsent.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+  new CookieConsent();
+});
