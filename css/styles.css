@@ -49,6 +49,9 @@ body {
   align-items: center;
   gap: 15px;
 }
+.top_bar a:hover {
+  color: green;
+}
 .top_bar a {
   color: #000;
 }
@@ -68,9 +71,10 @@ img {
 .nav_bar .logo ul.humo li {
   padding: 10px;
   font-weight: 500;
+  color: #000;
 }
 .nav_bar .logo ul.humo li:hover {
-  border-bottom: 1px solid blue;
+  color: #1cca59;
 }
 .nav_bar .logo ul.humo {
   display: flex;
@@ -223,6 +227,10 @@ img {
 }
 .item ul.menu li {
   padding: 6px;
+  font-size: 19px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 
 ul.menu {
@@ -244,6 +252,23 @@ ul.menu {
 }
 .h1 button {
   border: none;
+}
+.card .itemes{
+  width: 350px;
+    height: 317.5px;
+    background: #fff;
+    border-radius: 18px;
+    padding: 20px;
+}
+.card .itemes_1{
+  width: 350px;
+    height: 317.5px;
+    background: #fff;
+    border-radius: 18px;
+    padding: 20px;
+}
+.h1 button p:hover {
+  background:  #1Cdc31;
 }
 .h1 button p {
   padding: 13px;
@@ -307,13 +332,13 @@ ul.menu {
   position: relative;
 }
 
-.visa .card .item_1 .name {
-  font-size: 28px;
+.visa .card .itemes_1 .name {
+  font-size: 32px;
   font-weight: 600;
   width: 200px;
 }
-.visa .card .item .name {
-  font-size: 28px;
+.visa .card .itemes .name {
+  font-size: 32px;
   font-weight: 600;
   width: 200px;
 }
@@ -325,69 +350,80 @@ ul.menu {
   left: 711px;
 }
 
-.item button:hover {
+.itemes button:hover {
   background: #1cca59;
   color: #fff;
 }
 
-.item_1 button:hover {
+.itemes_1 button:hover {
   background: #1cca59;
   color: #fff;
 }
-.item button {
+.itemes button {
   position: relative;
-  bottom: -80px;
-  padding: 10px 15px;
+  bottom: -67px;
+  padding: 15px 20px;
+  border: none;
+  font-size: 18px;
+  border-radius: 12px;
+  background: #dadee3;
+  font-weight: 500;
+}
+.itemes_1 button {
+  position: relative;
+  bottom: -67px;
+  padding: 15px 20px;
+  font-size: 18px;
   border: none;
   border-radius: 12px;
   background: #dadee3;
   font-weight: 500;
 }
-.item_1 button {
-  position: relative;
-  bottom: -80px;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 12px;
-  background: #dadee3;
-  font-weight: 500;
-}
-.item .desc {
+.itemes .desc {
   margin: 60px 0px 0px;
   color: #7c858d;
+  position: relative;
+    top: 42px;
+    font-size: 18px;
 }
-.item_1 .desc {
+.itemes_1 .desc {
   margin: 60px 0px 0px;
   color: #7c858d;
-}
-.item .image img {
   position: relative;
-  right: -50px;
-  width: 60px;
-  height: 60px;
+    top: 42px;
+    font-size: 18px;  
 }
-.item_1 .image img {
-  position: relative;
-  right: -50px;
-  width: 60px;
-  height: 60px;
+.itemes .image img {
+position: relative;
+    right: -34px;
+    width: 77px;
+    height: 70px;
 }
-.item {
+.itemes_1 .image img {
+ position: relative;
+    right: -34px;
+    width: 77px;
+    height: 70px;
+}
+.itemes {
+  width: 350px;
+  height: 224.5px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 20px;
+}
+.itemes_1 {
   width: 350px;
   height: 319.5px;
   background: #fff;
   border-radius: 18px;
   padding: 20px;
 }
-.item_1 {
-  width: 350px;
-  height: 319.5px;
-  background: #fff;
-  border-radius: 18px;
-  padding: 20px;
-}
 
-.df .image img {
+.df .itemes .image img {
+  width: 54px;
+}
+.df .itemes_1 .image img {
   width: 54px;
 }
 .span {
@@ -399,7 +435,7 @@ ul.menu {
 .ds span {
   position: absolute;
   top: 72px;
-  left: 11px;
+  left: 18px;
   font-size: 26px;
   font-weight: 600;
 }
@@ -416,9 +452,10 @@ ul.menu {
 }
 .ds button {
   position: absolute;
-  bottom: 70px;
-  left: 9px;
-  padding: 12px 19px;
+  bottom: 42px;
+  left: 14px;
+  font-size: 18px;
+  padding: 15px 23px;
   border: none;
   border-radius: 13px;
 }
@@ -441,7 +478,7 @@ ul.menu {
 .hh .left .name {
   position: absolute;
   top: 117px;
-  left: 9px;
+  left: 18px;
   font-size: 19px;
   margin-right: 10px;
   font-weight: 500;
@@ -449,12 +486,12 @@ ul.menu {
 .hh .left .desc {
   position: absolute;
   top: 145px;
-  left: 9px;
+  left: 18px;
   color: #7c858d;
 }
 .ds {
   width: 48.5%;
-  height: 400px;
+  height: 322px;
   background: #fff;
   border-radius: 15px;
   position: relative;
@@ -465,15 +502,22 @@ ul.menu {
 .ds .uz .item_0 {
   position: absolute;
   top: 13px;
-  left: 171px;
+  left: 178px;
   padding: 9px 17px;
   background: #dceff9;
   border-radius: 14px;
 }
+.flex .item{
+  width: 350px;
+    height: 224.5px;
+    background: #fff;
+    border-radius: 18px;
+    padding: 20px;
+}
 .ds .uz .item {
   position: absolute;
   top: 10px;
-  left: 7px;
+  left: 19px;
   margin-top: 5px;
   width: 152px;
   height: 35px;
@@ -540,9 +584,11 @@ ul.menu {
   gap: 20px;
 }
 .item_main .main_right i {
-  margin-left: 20px;
+  display: flex;
+  margin-left: 21px;
   margin-top: 20px;
   font-size: 30px;
+    color: #568C96;
 }
 .item_main .main_right .name {
   font-size: 21px;
@@ -580,9 +626,11 @@ ul.menu {
   left: 1068px;
 }
 .item_main .main_right_1 i {
-  margin-left: 20px;
+  margin-left: 32px;
+  display: flex;
   margin-top: 20px;
   font-size: 30px;
+    color: #568C96;
 }
 .item_main .main_right_1 .name {
   font-size: 21px;
@@ -596,9 +644,11 @@ ul.menu {
   margin-left: 33px;
 }
 .item_main .main_right_2 i {
-  margin-left: 20px;
+  margin-left: 32px;
   margin-top: 20px;
   font-size: 30px;
+  color: #568C96;
+  display: flex;
 }
 .item_main .main_right_2 .name {
   font-size: 21px;
@@ -692,11 +742,21 @@ ul.menu {
   left: 325px;
   padding: 20px;
 }
+.footer .content .cards .item_s ul:hover  {
+  color: #1cca59;
+}
 .footer .content .cards .item_s ul {
   margin-top: 25px;
+  
+}
+.footer .content .cards .item_j ul:hover {
+  color: #1cca59;
 }
 .footer .content .cards .item_j ul {
   margin: 25px;
+}
+.footer .content .cards .item_k ul:hover {
+  color: #1cca59;
 }
 .footer .content .cards .item_k ul {
   margin: 25px;
@@ -730,7 +790,7 @@ ul.menu {
   margin-top: 120px;
 }
 .footer .cards {
-  display: flex;
+  display: flex;  
   justify-content: baseline;
   justify-content: center;
   gap: 10px;
@@ -745,6 +805,10 @@ ul.menu {
   position: absolute;
   top: 300px;
   left: 400px;
+}
+.footer .icon i:hover {
+  color: #1cca59;
+
 }
 .footer .icon i {
   font-size: 38px;

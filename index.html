@@ -4,17 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body> 
-    <div class="header">
+    <div data-aos="fade-right" class="header">
       <div class="top_bar">
         <ul>
           <li><a href="#">Частным лицам</a></li>
@@ -50,12 +45,12 @@
           <div class="logo">
             <img src="img/logo.svg" alt="" />
             <ul class="humo">
-              <li>Кредиты</li>
-              <li>Карты</li>
-              <li>Микрозаймы</li>
-              <li>Вклады</li>
-              <li>Курс валют</li>
-              <li>Еще</li>
+              <a href="#"><li>Кредиты</li></a>
+              <a href="#"><li>Карты</li></a>
+              <a href="#"><li>Микрозаймы</li></a>
+              <a href="#"><li>Вклады</li></a>
+              <a href="#"><li>Курс валют</li></a>
+              <a href="#"><li>Еще</li></a>
             </ul>
             <div class="btn">
               <ul>
@@ -81,7 +76,7 @@
       </div>
     </div>
     <div class="container">
-      <div class="main">
+      <div data-aos="fade-left" class="main">
         <div class="image">
           <img src="img/home_promo_xl_1867x0_2fb.webp" alt="" />
           <div class="name">Карта Humo — лучший помощник на каждый день</div>
@@ -93,7 +88,7 @@
         </div>
       </div>
       <div class="flex">
-        <div class="item">
+        <div data-aos="flip-left" class="item">
           <div class="name">
             <h1>Кредиты</h1>
             <span>Все</span>
@@ -104,7 +99,7 @@
             <li><a href="#">Товары и услуги</a></li>
           </ul>
         </div>
-        <div class="item">
+        <div data-aos="flip-left" class="item">
           <div class="name">
             <h1>Кредиты</h1>
             <span>Все</span>
@@ -115,7 +110,7 @@
             <li><a href="#">Товары и услуги</a></li>
           </ul>
         </div>
-        <div class="item">
+        <div data-aos="flip-left" class="item">
           <div class="name">
             <h1>Кредиты</h1>
             <span>Все</span>
@@ -126,7 +121,7 @@
             <li><a href="#">Товары и услуги</a></li>
           </ul>
         </div>
-        <div class="item">
+        <div data-aos="flip-left" class="item">
           <div class="name">
             <h1>Кредиты</h1>
             <span>Все</span>
@@ -154,18 +149,18 @@
           </div>
           <button><a href="#">Оформить</a></button>
         </div>
-        <div class="card">
-          <div class="item">
+        <div data-aos="flip-left" class="card">
+          <div class="itemes">
             <div class="df">
               <div class="name">Микрозайм за 15 минут</div>
               <div class="image">
-                <img src="img/time_86x0_e36.webp" alt="" />
+                <img data-aos="zoom-out-right" src="img/time_86x0_e36.webp" alt="" />
               </div>
             </div>
             <div class="desc">Оформление онлайн</div>
             <button>Подробнее</button>
           </div>
-          <div class="item_1">
+          <div class="itemes_1">
             <div class="df">
               <div class="name">Ипотека под 18%</div>
               <div class="image">
@@ -179,7 +174,10 @@
       </div>
       <div class="span">Карты</div>
       <div class="norm">
-        <div class="ds">
+        <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="1000"
+     data-aos-duration="1000" class="ds">
           <div class="uz">
             <div class="item">
               <i class="fa-solid fa-cart-shopping"></i> Для покупок
@@ -202,7 +200,10 @@
             <img src="img/photo_2024-09-28_20-28-00.jpg" alt="" />
           </div>
         </div>
-        <div class="ds">
+        <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="1000"
+     data-aos-duration="1000" class="ds">
           <div class="uz">
             <div class="item">
               <i class="fa-solid fa-cart-shopping"></i> Для покупок
@@ -225,7 +226,10 @@
             <img src="img/photo_2024-09-28_20-28-00.jpg" alt="" />
           </div>
         </div>
-        <div class="ds">
+        <div  data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="1000"
+     data-aos-duration="1500" class="ds">
           <div class="uz">
             <div class="item">
               <i class="fa-solid fa-cart-shopping"></i> Для покупок
@@ -248,7 +252,10 @@
             <img src="img/photo_2024-09-28_20-28-00.jpg" alt="" />
           </div>
         </div>
-        <div class="ds">
+        <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="1000"
+     data-aos-duration="1500" class="ds">
           <div class="uz">
             <div class="item">
               <i class="fa-solid fa-cart-shopping"></i> Для покупок
@@ -275,29 +282,38 @@
       <div class="span">О Hamkorbank</div>
       <div class="item_main">
         <div class="girl">
-          <div class="image"><img src="img/apacha.webp" alt="" /></div>
+          <div class="image"><img  data-aos="fade-up"
+     data-aos-duration="1000" src="img/apacha.webp" alt="" /></div>
           <div class="name">Hamkorbank более 30 лет с вами!</div>
           <div class="desc">
             Вместе мы уверены в друг друге и всегда на высоте!
           </div>
           <button>Подробнее</button>
         </div>
-        <div class="main_right">
+        <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="main_right">
           <div class="icon"><i class="fa-solid fa-globe"></i></div>
           <div class="name">33 года</div>
           <div class="desc">Вместе с вами</div>
         </div>
         <div class="main_right">
-          <div class="icon"><i class="fa-solid fa-globe"></i></div>
+          <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="icon"><i class="fa-solid fa-globe"></i></div>
           <div class="name">157 офиса</div>
           <div class="desc">Во всех регионах страны</div>
         </div>
         <div class="main_right_1">
-          <div class="icon"><i class="fa-solid fa-globe"></i></div>
+          <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="icon"><i class="fa-solid fa-globe"></i></div>
           <div class="name">33 года</div>
           <div class="desc">Вместе с вами</div>
         </div>
-        <div class="main_right_2">
+        <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="main_right_2">
           <div class="icon"><i class="fa-solid fa-globe"></i></div>
           <div class="name">33 года</div>
           <div class="desc">Вместе с вами</div>
@@ -305,7 +321,7 @@
       </div>
       <div class="qr">
         <div class="image">
-          <img src="img/bandicam 2024-09-29 07-48-03-985.jpg" alt="" />
+          <img data-aos="flip-up" src="img/bandicam 2024-09-29 07-48-03-985.jpg" alt="" />
         </div>
         <div class="name">Приложение Hamkor</div>
         <div class="h1">
@@ -328,9 +344,9 @@
         </div>
       </div>
     </div>
-    <div class="refresh">
+    <div data-aos="zoom-in" class="refresh">
+       Последнее обновление: 26.09.2024
       <i class="fa-solid fa-arrows-rotate"></i>
-      Последнее обновление: 26.09.2024
     </div>
     <div class="footer">
       <div class="content">
@@ -339,7 +355,7 @@
         <div class="number_2">+ 998 (78) 150 91 25</div>
         <div class="desc_2">Телефон доверия</div>
         <div class="cards">
-          <div class="item_s">
+          <div data-aos="zoom-in" class="item_s">
             <ul>
               Отделения и банкоматы
             </ul>
@@ -353,7 +369,7 @@
               Обратная связь
             </ul>
           </div>
-          <div class="item_j">
+          <div data-aos="zoom-in" class="item_j">
             <ul>
               Частным лицам
             </ul>
@@ -367,7 +383,7 @@
               О банке
             </ul>
           </div>
-          <div class="item_k">
+          <div data-aos="zoom-in" class="item_k">
             <ul>
               Пресс-центр
             </ul>
@@ -388,15 +404,19 @@
               </div>
             </div>
           </div>
-          <button>Сообщить о коррупции</button>
-          <div class="icon">
-            <div class="facebook"><i class="fa-brands fa-facebook"></i></div>
-            <div class="ins"><i class="fa-brands fa-instagram"></i></div>
-            <div class="tg"><i class="fa-brands fa-telegram"></i></div>
-            <div class="tvitter"><i class="fa-brands fa-twitter"></i></div>
+          <button>Сообщить o коррупции</button>
+          <div data-aos="zoom-in" class="icon">
+            <div  class="facebook"><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+            <div  class="ins"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+            <div  class="tg"><a href="#"><i class="fa-brands fa-telegram"></i></a></div>
+            <div  class="tvitter"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
           </div>
         </div>
       </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
